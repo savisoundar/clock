@@ -1,0 +1,73 @@
+.react-clock__face {
+    background-color: white;
+    border: .2em solid #966F33;
+    box-shadow: 4px 2px 4px 2px #888888;
+}
+
+.react-clock__hour-hand__body {
+    background-color: #966F33;
+}
+
+.react-clock__mark__number {
+    font-size: 12px;
+    color: black;
+}
+
+.react-clock__minute-hand__body {
+    background-color: #966F33;
+}
+
+
+.react-clock__second-hand {
+    background-color: #966F33;
+}
+
+.react-clock__hour-mark__body {
+    background-color: white;
+}
+
+.clockContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.toggleOptions {
+    font-size: .6em;
+}
+
+.toggle {
+    width: 40em;
+    align-items: end;
+}
+
+.title {
+    padding-top: .5em;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.clock {
+    padding: .6em;
+}
+
+.digitalClockRender {
+  width: 6vw;
+  height: 6vw;
+  background-color: grey;
+  color:white;
+  float: right;
+}
+
+.digitalClockTime {
+    text-align: center;
+}
+
+.digitalClockDate {
+    text-align: center;
+}
+
+#selectTimeZone {
+    padding: 2px;
+}
